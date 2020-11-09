@@ -1,0 +1,51 @@
+
+    @font-face {
+        font-family: 'gameriaregular';
+        src: url('../font/gameria-webfont.woff2') format('woff2'),
+             url('../font/gameria-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    
+    } 
+    body{ 
+        font-family: 'gameriaregular'; 
+}
+
+.container-fluid{
+   padding-top: 15px;
+    width: 70%;
+    height: 500px;
+    text-align:center;
+    background-image: url(../images/number.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    border: 2px solid black;
+    border-radius:10px;
+    color: black;
+}
+
+#title{
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+    color:rgba(255, 255, 0, 0.753);
+    font-weight:bold;
+    font-family: 'gameriaregular' , cursive;
+    font-size: 70px;
+}
+.title2{
+    
+        text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+        color:rgba(255, 255, 0, 0.753);
+        font-weight:bold;
+        font-family: 'gameriaregular', cursive;
+}
+#subtitle{
+    font-size: 30px;
+    text-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white;
+}
+#replay{
+    visibility: hidden;
+    margin-left: 45%;
+    color:rgb(5, 226, 5);
+    font-size:30px ;
+}

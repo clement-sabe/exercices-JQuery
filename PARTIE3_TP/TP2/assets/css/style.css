@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'fredo_manuscriteregular';
+    src: url('../font/fredo_manuscrite-webfont.woff2') format('woff2'),
+        url('../font/fredo_manuscrite-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    text-align: center;
+    font-family: 'fredo_manuscriteregular';
+    background-image: url(../img/table.jpg);
+    background-repeat: no-repeat;
+    background-position: content;
+
+
+}
+
+.container-fluid {
+    width: 750px;
+    height: 700px;
+    font-family: 'fredo_manuscriteregular';
+    background-image: url(../img/paper.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.title {
+    margin-top: 70px;
+    font-size: 50px;
+
+    margin-left: 130px;
+}
+
+.noteGroup {
+    margin-right: 150px;
+}
+
+.note {
+
+    margin-top: 6px;
+    text-decoration: underline red;
+    font-weight: bold;
+}
+
+
+#number1,
+#number2,
+#number3,
+#number4,
+#number5 {
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+}
+
+#button {
+
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 1px solid red;
+    border-radius: 60% 20% / 10% 55%;
+}
+
+#button:focus {
+
+    outline: none;
+}
+ul {
+    list-style-type: none;
+}
+
+#appreciation {
+    margin-left: 50px;
+    font-size: 32px;
+    font-family: 'Zhi Mang Xing', cursive;
+}
+
+input:focus {
+    outline: none;
+}
+#fail{
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 32px;
+}
