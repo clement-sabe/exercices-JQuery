@@ -35,5 +35,6 @@ $(document).ready(function(){
         else{
             alert('Erreur'); // SINON afficher une boîte de dialogue 'erreur'
         }
+        $('#number').val('')
     }); 
 });

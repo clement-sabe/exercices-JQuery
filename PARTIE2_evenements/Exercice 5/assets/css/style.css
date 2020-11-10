@@ -1,0 +1,38 @@
+body{
+    font-family: 'Pacifico', cursive;
+}
+#text{
+    font-size:25px;
+    text-align: justify;
+    margin:50px;
+    font-weight: bold;
+}
+#green{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    background-color:rgb(28, 209, 28) ;
+border: 3px solid green;
+border-radius:15px;
+}
+
+#red{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    background-color:rgb(187, 116, 68);
+    border: 3px solid red;
+    border-radius:15px;
+}
+#blue{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    background-color:rgb(7, 164, 255);
+    border: 3px solid blue;
+    border-radius:15px;
+}
+.divButton{
+    text-align: center;
+}
+.color{
+    margin-right: 25px;
+}
+

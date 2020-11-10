@@ -1,0 +1,18 @@
+#btgreen,#green{
+    font-size: 25px;
+    background-color:rgb(28, 209, 28) ;
+border: 3px solid green;
+border-radius:15px;
+}
+#btred, #red{
+    font-size: 25px;
+    background-color:rgb(187, 116, 68);
+    border: 3px solid red;
+    border-radius:15px;
+}
+#btblue, #blue{
+    font-size: 25px;
+    background-color:rgb(7, 164, 255);
+    border: 3px solid blue;
+    border-radius:15px;
+}
